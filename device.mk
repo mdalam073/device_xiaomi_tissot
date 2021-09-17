@@ -114,6 +114,10 @@ PRODUCT_PACKAGES += \
     liblz4.vendor \
     libpng.vendor
 
+# Configstore
+PRODUCT_PACKAGES += \
+    disable_configstore
+
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
