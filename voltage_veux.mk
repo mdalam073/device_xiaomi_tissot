@@ -19,7 +19,7 @@ $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 VOLTAGE_BUILD_TYPE := OFFICIAL
 
 # Bootanimation Resolution
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 2160
 
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := veux
