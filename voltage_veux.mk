@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2023-2024 The LineageOS Project
+#               2023-2024 VoltageOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -11,21 +12,27 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common VoltageOS stuff.
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2400
-TARGET_SCREEN_WIDTH := 1080
+# Official-ify
+VOLTAGE_BUILD_TYPE := OFFICIAL
+
+# Bootanimation Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := veux
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 2201116SG
-PRODUCT_NAME := lineage_veux
+PRODUCT_NAME := voltage_veux
 PRODUCT_SYSTEM_NAME := veux_global
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Inherit some common device props
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="veux_global-user 13 TKQ1.221114.001 V14.0.6.0.TKCMIXM release-keys" \
