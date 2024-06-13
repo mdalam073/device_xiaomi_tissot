@@ -107,6 +107,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libpiex_shim
 
+PRODUCT_PACKAGES += \
+    liblz4.vendor \
+    libpng.vendor
+
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
@@ -179,6 +183,9 @@ PRODUCT_PACKAGES += \
     gps.conf \
     izat.conf
 
+PRODUCT_PACKAGES += \
+    libcurl.vendor
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.qti \
@@ -234,6 +241,9 @@ PRODUCT_PACKAGES += \
     libstagefright_softomx.vendor \
     libstagefrighthw
 
+PRODUCT_PACKAGES += \
+    libstagefright_softomx_plugin.vendor
+
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2.xml \
@@ -250,6 +260,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libloc_net_iface \
     libloc_net_iface.vendor
+
+PRODUCT_PACKAGES += \
+    libnetutils.vendor
 
 # Neural networks
 PRODUCT_PACKAGES += \
@@ -369,6 +382,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr
 
+PRODUCT_PACKAGES += \
+    libssl.vendor
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
@@ -383,6 +399,11 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor \
     libvndfwk_detect_jni.qti.vendor
 
+PRODUCT_PACKAGES += \
+    libsqlite \
+    libjsoncpp.vendor \
+    libsqlite.vendor
+
 # RIL
 PRODUCT_PACKAGES += \
     librmnetctl
@@ -392,6 +413,9 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.2.vendor \
     android.hardware.radio.deprecated@1.0.vendor \
     android.hardware.secure_element@1.2.vendor
+
+PRODUCT_PACKAGES += \
+    libutilscallstack.vendor
 
 # Rootdir
 PRODUCT_PACKAGES += \
