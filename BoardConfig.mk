@@ -73,7 +73,8 @@ LOC_HIDL_VERSION := 4.0
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
     hardware/xiaomi/vintf/xiaomi_framework_compatibility_matrix.xml \
-    $(DEVICE_PATH)/hidl/device_framework_matrix.xml
+    $(DEVICE_PATH)/hidl/device_framework_matrix.xml \
+    $(DEVICE_PATH)/hidl/framework_compatibility_matrix.xml
 
 DEVICE_MANIFEST_FILE := \
     $(DEVICE_PATH)/hidl/manifest.xml
@@ -86,9 +87,6 @@ ODM_MANIFEST_SKUS += \
 
 ODM_MANIFEST_SN100_FILES := \
     $(DEVICE_PATH)/hidl/manifest_ese.xml
-
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
-    $(DEVICE_PATH)/hidl/framework_compatibility_matrix.xml \
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
