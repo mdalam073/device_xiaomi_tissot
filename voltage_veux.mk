@@ -15,10 +15,13 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Inherit some common VoltageOS stuff.
 $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
-# Official-ify
+# VoltageOS Flags.
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USES_AOSP_RECOVERY := true
+# Official-ify.
 VOLTAGE_BUILD_TYPE := OFFICIAL
 
-# Bootanimation Resolution
+# Bootanimation Resolution.
 TARGET_BOOT_ANIMATION_RES := 2160
 
 PRODUCT_BRAND := Redmi
@@ -29,10 +32,6 @@ PRODUCT_NAME := voltage_veux
 PRODUCT_SYSTEM_NAME := veux_global
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-# Inherit some common device props
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SUPPORTS_QUICK_TAP := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="veux_global-user 13 TKQ1.221114.001 V816.0.5.0.TKCMIXM release-keys" \
