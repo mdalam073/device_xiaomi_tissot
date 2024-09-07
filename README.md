@@ -1,24 +1,23 @@
-# Device Tree for POCO X4 Pro 5G/Redmi Note 11E Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G (peux/veux)
+# Device Tree for Xiaomi Mi A1 (tissot)
 
 ## Spec Sheet
 
-| Feature          | Specification                                                   |
-| :--------------- | :-------------------------------------------------------------- |
-| CPU              | Octa-core (2x2.2 GHz Kryo 660 Gold & 6x1.7 GHz Kryo 660 Silver) |
-| Chipset          | Qualcomm SM6375 Snapdragon 695G (6 nm)                          |
-| GPU              | Adreno 619                                                      |
-| Memory           | 6 GB / 8 GB                                                     |
-| Shipped Software | Android 11, MIUI 13                                             |
-| Storage          | 128 GB / 256 GB                                                 |
-| Battery          | 5000 mAh                                                        |
-| Dimensions       | 165.1 x 76.4 x 9.3 mm (6.5 x 3.01 x 0.37 in)                    |
-| Display          | 6.67 inches, 107.4 cm2 (~86.0% screen-to-body ratio)            |
-| Rear Camera      | 108 MP, f/1.9, 26mm (wide), 1/1.52", 0.7µm, PDAF                |
-|                  | 8 MP, f/2.2, 118˚ (ultrawide)                                   |
-|                  | 2 MP, f/2.4, (macro)                                            |
-| Front Camera     | 16 MP, f/2.5, (wide), 1/3.06" 1.0µm                             |
-| Release Date     | February 2022                                                   |
+| Feature                 | Specification                     |
+| :---------------------- | :-------------------------------- |
+| CPU                     | Octa-core 2.0 GHz Cortex-A53      |
+| Chipset                 | Qualcomm MSM8953 Snapdragon 625   |
+| GPU                     | Adreno 506                        |
+| Memory                  | 4 GB                              |
+| Shipped Android Version | 7.1.1                             |
+| Storage                 | 64 GB                             |
+| MicroSD                 | Up to 256 GB                      |
+| Battery                 | 3080 mAh (non-removable)          |
+| Dimensions              | 155.4 x 75.8 x 7.3 mm             |
+| Display                 | 1920x1080 pixels, 5.5 (~401 PPI)  |
+| Rear Camera             | 12 MP Dual-camera , LED flash     |
+| Front Camera            | 5 MP                              |
+| Release Date            | September 2017                    |
 
 ## Device Picture
 
-![POCO X4 Pro 5G/Redmi Note 11E Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G](https://i.ibb.co/4syxpfw/330608dc148bfa50f6326d996d6c8e8b.png "POCO X4 Pro 5G/Redmi Note 11E Pro/Redmi Note 11 Pro 5G/Redmi Note 11 Pro+ 5G")
+![Xiaomi Mi A1](https://i.imgur.com/4UF7PpM.png "Xiaomi Mi A1")
