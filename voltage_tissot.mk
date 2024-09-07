@@ -19,22 +19,23 @@ $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USES_AOSP_RECOVERY := true
 # Official-ify.
-VOLTAGE_BUILD_TYPE := OFFICIAL
+VOLTAGE_BUILD_TYPE := UNOFFICIAL
 
 # Bootanimation Resolution.
 TARGET_BOOT_ANIMATION_RES := 2160
 
-PRODUCT_BRAND := Redmi
-PRODUCT_DEVICE := veux
+PRODUCT_DEVICE := tissot
+PRODUCT_NAME := voltage_tissot
+BOARD_VENDOR := Xiaomi
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := Mi A1
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := 2201116SG
-PRODUCT_NAME := voltage_veux
-PRODUCT_SYSTEM_NAME := veux_global
+TARGET_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="veux_global-user 13 TKQ1.221114.001 V816.0.5.0.TKCMIXM release-keys" \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
+    PRIVATE_BUILD_DESC="tissot-user 8.0.0 OPR1.170623.026 8.1.10 release-keys"
 
-BUILD_FINGERPRINT := Redmi/veux_global/veux:13/TKQ1.221114.001/V816.0.5.0.TKCMIXM:user/release-keys
+# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
+BUILD_FINGERPRINT := "xiaomi/tissot/tissot_sprout:8.0.0/OPR1.170623.026/8.1.10:user/release-keys"
