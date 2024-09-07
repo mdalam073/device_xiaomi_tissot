@@ -6,4 +6,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_veux.mk
+    $(LOCAL_DIR)/voltage_tissot.mk
