@@ -70,7 +70,7 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     sound_trigger.primary.holi:32
 
-AUDIO_HAL_DIR := hardware/qcom-caf/sm8350/audio
+AUDIO_HAL_DIR := hardware/qcom-caf/msm8953/audio
 AUDIO_SKU_DIR := sku_holi
 
 PRODUCT_COPY_FILES += \
