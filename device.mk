@@ -325,10 +325,10 @@ PRODUCT_PACKAGES += \
     TelephonyOverlayCOMMON
 
 PRODUCT_PACKAGES += \
-    FrameworkOverlayVEUX \
-    SettingsOverlayVEUX \
-    SystemUIOverlayVEUX \
-    WifiOverlayVEUX
+    FrameworkOverlayTISSOT \
+    SettingsOverlayTISSOT \
+    SystemUIOverlayTISSOT \
+    WifiOverlayTISSOT
 
 PRODUCT_PACKAGES += \
     SettingsProviderOverlay2201116SG \
