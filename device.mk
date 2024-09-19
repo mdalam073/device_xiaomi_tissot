@@ -207,7 +207,10 @@ PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
 # HIDL
+PRODUCT_HIDL_ENABLED := true
+
 PRODUCT_PACKAGES += \
+    hwservicemanager \
     libhidltransport.vendor \
     libhwbinder.vendor
 
